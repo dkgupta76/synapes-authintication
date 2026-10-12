@@ -1,0 +1,83 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  background: #f5f7fb;
+  color: #182230;
+}
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  background:
+    radial-gradient(circle at top left, #dbeafe, transparent 45%),
+    linear-gradient(135deg, #f8fafc, #eef2ff);
+}
+
+.login-card {
+  width: 100%;
+  max-width: 440px;
+  border-radius: 20px;
+}
+
+.brand-mark {
+  width: 58px;
+  height: 58px;
+  display: grid;
+  place-items: center;
+  border-radius: 16px;
+  background: #0d6efd;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.form-control {
+  border-radius: 10px;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgb(13 110 253 / 15%);
+}
+
+.btn {
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.dashboard-page {
+  min-height: 100vh;
+  background: #f5f7fb;
+}
+
+.identity-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+}
+
+.role-badge {
+  padding: 10px 14px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+.loading-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
